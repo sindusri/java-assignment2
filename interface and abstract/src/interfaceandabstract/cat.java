@@ -1,6 +1,6 @@
 package interfaceandabstract;
 
-public class cat extends AnimalBehaviour {
+public class Cat extends DomesticAnimals {
 
 	@Override
 	public void callsound() {
@@ -9,15 +9,13 @@ public class cat extends AnimalBehaviour {
 
 	@Override
 	public int run() {
-		return 30;
-		
-		
+		return 0;
 	}
 
 	@Override
 	public void food() {
-		System.out.println("meat");
+		System.out.println("catfood");
 		
 	}
-	
-	}
+
+}

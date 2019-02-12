@@ -1,20 +1,22 @@
 package interfaceandabstract;
 
-public class lion extends AnimalBehaviour {
+ public class Lion extends WildAnimals {
 
 	@Override
 	public void callsound() {
 		System.out.println("roar");
-
+		
 	}
 
 	@Override
 	public int run() {
-		
-		return 40;
+		return 0;
 	}
-	
+
+	@Override
 	public void food() {
-		System.out.println("meat");	 }
+		System.out.println("meat");
+		
+	}
 
 }

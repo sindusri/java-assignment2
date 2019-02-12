@@ -1,18 +1,22 @@
 package interfaceandabstract;
 
-public class dog extends AnimalBehaviour {
+public class Dog  extends DomesticAnimals{
 
 	@Override
 	public void callsound() {
-		System.out.println("woof");
-
+		System.out.println("bark");
+		
 	}
 
 	@Override
 	public int run() {
-		
-		return 50;
+		return 0;
 	}
+
+	@Override
 	public void food() {
-		System.out.println("meat");	 }
+		System.out.println("dogfood");
+		
+	}
+
 }
